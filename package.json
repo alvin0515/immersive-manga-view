@@ -1,0 +1,27 @@
+{
+  "name": "immersive-manga-view",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A cinematic, panel-aware manga reader. Detects panels in-browser and directs attention across them like a film camera, without altering the artwork.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-virtual": "^3.10.8",
+    "framer-motion": "^11.11.17",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
